@@ -1,7 +1,7 @@
   {% if page.is_index %}{% assign content = post.content %}{% endif %}
     <div class="span11 content">
 		<div class="page-header">
-		 {% if post.title %}<h3 class="title">{% if page.is_index %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title}}{% endif %}</h3>{% endif %}
+		 {% if post.title %}<h3 class="title">{% if page.is_index %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title}}{% endif %}</h3>{% endif %}
 		</div>
 		<div class="post_content">
 			{% if page.is_index %}
