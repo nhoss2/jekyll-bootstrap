@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Introducing Jekyll Bootstrap - Jekyll Bootstrap</title>
+
+	<link rel="stylesheet" href="/jekyll-bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="/jekyll-bootstrap/css.css">
+</head>
+<body>
+
+	
+		
+	
+
+	<header>
+	<h1><a href="/jekyll-bootstrap">Jekyll Bootstrap</a></h1>
+	</header>
+
+	<div class="container">
+
+
+  
+    <div class="span11 content">
+		<div class="page-header">
+		 <h3 class="title">Introducing Jekyll Bootstrap</h3>
+		</div>
+		<div class="post_content">
+			
+			<p>Jekyll bootstrap is a theme for jekyll which uses the <a href='https://github.com/twitter/bootstrap'>twitter bootstrap css framework</a>. The advantage of jekyll is that it is self hosted (or hosted on github) and that you can write in markdown on a text editor and just git push new posts to a server which produces html files. The advantage of this theme is so that you can start blogging almost right away without having to worry about making a theme.</p>
+
+<h3 id='setting_up'>Setting up</h3>
+
+<p>To start you own blog, simply <code>git clone</code> the <a href='https://github.com/nhoss2/jekyll-bootstrap'>repository on github</a>. You could also press the &#8220;fork&#8221; button on github.</p>
+
+<pre><code>git clone git://github.com/nhoss2/jekyll-bootstrap.git</code></pre>
+
+<p>If you want to have your blog on github, make sure you change to the <code>gh-pages</code> branch.</p>
+
+<pre><code>git checkout gh-pages</code></pre>
+
+<p>Then you will need to edit the <code>_config.yml</code> file at the root of repository.</p>
+
+<p>To add your own posts, add a file to the <code>_posts</code> directory which has the name <code>year-month-day-title.md</code>. Note - the file does not have to markdown.</p>
+
+<p>To publish the post, just <code>git push</code> it to your own github repo and your set!</p>
+
+<h3 id='things_to_change_on_'>Things to change on <code>_config.yml</code></h3>
+
+<p>There is a config file at the root called <code>_config.yml</code>. By Default it looks like:</p>
+
+<pre><code>permalink: /:year/:title/
+paginate: 10
+exclude:
+name: Jekyll Bootstrap
+baseurl: /jekyll-bootstrap/</code></pre>
+
+<p>You will need to change the <code>name</code> and <code>baseurl</code> fields. The others are optional. The <code>baseurl</code> field is used for the css files and pagination, if you are hosting the blog on github, you will need to change it to your repository name unless your repository is the same name as your github user name, which means you will need to have no value for <code>baseurl</code>.</p>
+
+<p>For more information on Jekyll, visit their <a href='https://github.com/mojombo/jekyll/wiki'>wiki on github</a>.</p>
+
+<p>For more information on github pages: <a href='http://pages.github.com'>http://pages.github.com</a>.</p>
+			
+		</div>
+    </div><!--content-->
+
+	<div class="span5 sidebar">
+		<h4>Published on 03 September 2011</h4>
+		
+	</div>
+
+	</div><!--container-->
+
+</body>
+</html>
+
