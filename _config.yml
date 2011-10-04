@@ -1,0 +1,6 @@
+# Jekyll
+permalink: /:year/:title/
+paginate: 10 
+exclude: 
+name: Jekyll Bootstrap
+baseurl: /jekyll-bootstrap
