@@ -14,6 +14,7 @@ header h1, header h1 a{
 .content{
 	margin-left: 0;
 	margin-top: 20px;
+	float: left;
 }
 
 .content h3.title{
@@ -28,6 +29,7 @@ header h1, header h1 a{
 
 .sidebar{
 	margin-top: 20px;
+	float: right;
 }
 
 .sidebar h6{
