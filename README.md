@@ -12,7 +12,7 @@ If you want to have your blog on github, make sure you change to the `gh-pages` 
 
 Then you will need to edit the `_config.yml` file at the root of repository.
 
-To add your own posts, add a file to the `_posts` directory which has the name `year-    month-day-title.md`. Note - the file does not have to markdown.
+To add your own posts, add a file to the `_posts` directory which has the name `year-month-day-title.md`. Note - the file does not have to be markdown.
 
 To publish the post, just `git push` it to your own github repo and your set!
 
